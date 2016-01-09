@@ -8,7 +8,7 @@
     "postinstall": "typings install && tsc"
   },
   "dependencies": {
-    "typescript": "^1.7.3",
+    "typescript": "^1.8.0-dev.20160109",
     "typings": "^0.5.1"
   }
 }
