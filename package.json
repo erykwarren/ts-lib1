@@ -1,0 +1,13 @@
+{
+  "name": "ts-lib1",
+  "description": "top-level dependent lib",
+  "main": "build/index.js",
+  "typings": "build/index.d.ts",
+  "scripts": {
+    "postinstall": "typings install && tsc"
+  },
+  "dependencies": {
+    "typescript": "^1.7.3",
+    "typings": "^0.5.1"
+  }
+}
