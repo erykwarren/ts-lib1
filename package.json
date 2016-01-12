@@ -8,7 +8,7 @@
     "postinstall": "typings install && tsc"
   },
   "dependencies": {
-    "typescript": "^1.7.5",
+    "typescript": "git+ssh://github.com/unitoio/TypeScriptPatched.git",
     "typings": "^0.5.1"
   }
 }
